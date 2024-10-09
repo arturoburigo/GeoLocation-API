@@ -2,7 +2,7 @@ version: '3.8'  # Adicione esta linha para especificar a versão do Compose
 services:
   spring-app:
     build: .
-    container_name: spring-app
+    container_name: geo-location-api
     ports:
       - "8080:8080"
     networks:
